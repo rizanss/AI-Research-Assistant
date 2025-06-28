@@ -1,0 +1,8 @@
+# Abaikan virtual environment
+.venv/
+
+# Abaikan folder rahasia Streamlit
+.streamlit/
+
+# Abaikan cache Python
+__pycache__/
