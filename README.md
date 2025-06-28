@@ -12,10 +12,6 @@ Selamat datang di "AI Librarian"! Ini adalah aplikasi web cerdas yang dibangun m
 
 Proyek ini mendemonstrasikan pipeline AI/MLOps modern dari awal hingga akhir, mulai dari pemrosesan dokumen, pembuatan *vector database*, hingga *deployment* sebagai aplikasi web interaktif yang memiliki UX modern.
 
-**Tonton Demo Aplikasi di Bawah Ini!**
-*(Sangat disarankan untuk memasang GIF demo aplikasi Streamlit di sini)*
-`![Demo GIF](./assets/ai_librarian_demo.gif)`
-
 ---
 
 ## 🚀 Key Features
@@ -36,7 +32,7 @@ Aplikasi ini menggunakan alur kerja RAG yang modern:
 **User Uploads PDF(s) ➔ 1. Parse & Chunk Text ➔ 2. Generate & Store Embeddings in FAISS ➔ User Asks Question ➔ 3. Retrieve Relevant Chunks ➔ 4. Augment Prompt with Context ➔ 5. LLM (Groq/Qwen) ➔ 6. Formatted Answer with Thinking Process**
 
 * **UI & Orchestration**: Streamlit
-* **LLM API**: Groq (menggunakan model `qwen/qwen-32b-chat`)
+* **LLM API**: Groq (menggunakan model `qwen-qwq-32b`)
 * **Embedding Model**: `paraphrase-multilingual-MiniLM-L12-v2`
 * **Vector Store**: `faiss-cpu`
 * **PDF Parser**: `PyMuPDF`
@@ -48,8 +44,8 @@ Aplikasi ini menggunakan alur kerja RAG yang modern:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/rizanss/Project-AI-Research-Assistant.git](https://github.com/rizanss/Project-AI-Research-Assistant.git)
-    cd Project-AI-Research-Assistant
+    git clone [https://github.com/rizanss/AI-Research-Assistant.git](https://github.com/rizanss/AI-Research-Assistant.git)
+    cd AI-Research-Assistant
     ```
 
 2.  **Create and activate a virtual environment:**
