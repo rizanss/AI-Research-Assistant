@@ -7,7 +7,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 
 # =======================================================================
-#  FUNGSI-FUNGSI INTI (Versi Rapi & Profesional)
+#  FUNGSI-FUNGSI INTI
 # =======================================================================
 
 # Menggunakan cache resource agar objek berat ini hanya di-load sekali
@@ -67,7 +67,7 @@ def parse_response(response_text):
     return thinking, answer
 
 # =======================================================================
-#  TAMPILAN (INTERFACE) STREAMLIT (Sesuai Visi Lo)
+#  TAMPILAN (INTERFACE) STREAMLIT
 # =======================================================================
 
 st.set_page_config(page_title="AI Research Assistant", layout="centered", initial_sidebar_state="collapsed")
