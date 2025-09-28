@@ -6,6 +6,10 @@
 ![Groq](https://img.shields.io/badge/LLM-Groq%20(Qwen)-green.svg)
 ![FAISS](https://img.shields.io/badge/VectorDB-FAISS-purple.svg)
 
+*Tonton Demo Aplikasi di Bawah Ini!*
+
+![Research Assistant Demo](./assets/ai-research-assistant-demo.gif)
+
 ## ✨ Project Overview
 
 Selamat datang di "AI Librarian"! Ini adalah aplikasi web cerdas yang dibangun menggunakan arsitektur **Retrieval-Augmented Generation (RAG)** untuk memungkinkan Anda "berdialog" dengan dokumen PDF Anda. Unggah satu atau beberapa makalah penelitian, dan Anda bisa langsung mengajukan pertanyaan kompleks untuk mendapatkan jawaban yang akurat, relevan, dan disampaikan secara natural layaknya berbicara dengan seorang asisten ahli.
